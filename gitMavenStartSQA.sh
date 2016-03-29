@@ -2,7 +2,7 @@
 
 ##This shell script is created for students of SQA school to speed up their process of creating simple maven projects for practice.
 ##The script is still in beta stage.
-##Make sure you can access your GitHub account through Terminal without username and password
+## !!! Make sure you can access your GitHub account through Terminal without username and password !!!
 ##Run it from your root projects directory
 
 ##Steps:
@@ -13,6 +13,16 @@
 #3. This script will create simple maven structure, add README.MD and pox.xml files according to SQA requirements and change initials on pom.xml.
 #It will initialize your local Git repo, add the files, commit them and push to your default. i.e. GitHUb.
 
+#TL DR
+#Your name is Ben Benson, you have this script and it is located on your Desktop
+#You want to create a Maven project named "just-a-project" quickly on your local from scratch, initialize it, 
+#  add all the files to the staging area and commit them and push everything to GitHub
+#You already have or just created a new GitHub repo, e.g. "https://github.com/benbenson/repo.git"
+#You go to your projects directory, e.g. ~/Dropbox/Projects
+
+#Run sh script like this: /Users/mac/Dropbox/gitMavenStartSQA.sh just-a-project Ben Benson bb https://github.com/benbenson/repo.git
+#That's it.
+
 function usage {
 cat <<'USAGE'
 Maven GIT Script for SQA
@@ -21,9 +31,12 @@ Maven GIT Script for SQA
 Usage:
 	./gitMavenStart.sh <name> <first name> <last name> <your initials for pom.xml> <GitHub repo *.git address>
 	
-	name = short name name of application, without spaces
-	first name = to add to README.MD
-	last name = to add to README.MD
+	name = name of your project, without spaces
+	first name = to add your first name to README.MD
+	last name = to add your last name to README.MD
+	your initials for pom.xml = will add your initials to <groupId>com.sqa.${INITIALS}</groupId>
+	GitHub repo *.git address = will use provided GitHub path to push everything to default
+	
 
 USAGE
 }
