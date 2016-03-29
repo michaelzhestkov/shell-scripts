@@ -8,7 +8,7 @@
 ##Steps:
 #1. cd to your root projects directory
 #1.1. make sure you can execute the script before running it. Run "chmod +x gitMavenStartSQA.sh" from where gitMavenStartSQA.sh is located, e.g. ~/Desktop
-#2. run .sh script {Path to the script}/gitMavenStart.sh {name of the project} {your first name} {your last name} {your initials} {Git Hub *.git path}
+#2. run .sh script {Path to the script}/gitMavenStartSQA.sh {name of the project} {your first name} {your last name} {your initials} {Git Hub *.git path}
 #2.1. ex. /Users/mac/Dropbox/shell/gitMavenStartSQA.sh my-project Ben Benson bb https://github.com/benbenson/repo.git
 #3. This script will create simple maven structure, add README.MD and pox.xml files according to SQA requirements and change initials on pom.xml.
 #It will initialize your local Git repo, add the files, commit them and push to your default. i.e. GitHUb.
@@ -29,7 +29,7 @@ Maven GIT Script for SQA
 ====================
 
 Usage:
-	./gitMavenStart.sh <name> <first name> <last name> <your initials for pom.xml> <GitHub repo *.git address>
+	./gitMavenStartSQA.sh <name> <first name> <last name> <your initials for pom.xml> <GitHub repo *.git address>
 	
 	name = name of your project, without spaces
 	first name = to add your first name to README.MD
