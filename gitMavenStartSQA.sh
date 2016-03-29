@@ -20,7 +20,7 @@
 #You already have or just created a new GitHub repo, e.g. "https://github.com/benbenson/repo.git"
 #You go to your projects directory, e.g. ~/Dropbox/Projects
 
-#Run sh script like this: /Users/mac/Dropbox/gitMavenStartSQA.sh just-a-project Ben Benson bb https://github.com/benbenson/repo.git
+#Run sh script like this: ~/Desktop/gitMavenStartSQA.sh just-a-project Ben Benson bb https://github.com/benbenson/repo.git
 #That's it.
 
 function usage {
