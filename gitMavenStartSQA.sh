@@ -1,6 +1,10 @@
 #!/bin/bash
 
+##This shell script is created for students of SQA school to speed up their process of creating simple maven projects for practice.
+##The script is still in beta stage.
+##Make sure you can access your GitHub account through Terminal without username and password
 ##Run it from your root projects directory
+
 ##Steps:
 #1. cd to your root projects directory
 #1.1. make sure you can execute the script before running it. Run "chmod +x gitMavenStartSQA.sh" from where gitMavenStartSQA.sh is located, e.g. ~/Desktop
