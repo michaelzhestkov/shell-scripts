@@ -46,7 +46,7 @@ if [ $IS_GIT ]; then
 	echo "Creating new Git repository"
 	git init "${PROJECT}"
 else
-	echo "Git is not available, proceeding without it."
+	echo "Git was not initialized, proceeding without it."
 fi
 
 echo "Creating new Maven project ${PROJECT}"
