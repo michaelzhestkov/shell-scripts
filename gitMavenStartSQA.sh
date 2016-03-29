@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##This shell script is created for students of SQA school to speed up their process of creating simple maven projects for practice.
-##The script is still in beta stage.
+##The script is still in beta.
 ## !!! Make sure you can access your GitHub account through Terminal without username and password !!!
 ##Run it from your root projects directory
 
@@ -14,7 +14,7 @@
 #It will initialize your local Git repo, add the files, commit them and push to your default. i.e. GitHUb.
 
 #TL DR
-#Your name is Ben Benson, you have this script and it is located on your Desktop
+#Your name is Ben Benson, you have this script and it is located on your Desktop. Run "chmod +x gitMavenStartSQA.sh" just ones to get the rights to execute.
 #You want to create a Maven project named "just-a-project" quickly on your local from scratch, initialize it, 
 #  add all the files to the staging area and commit them and push everything to GitHub
 #You already have or just created a new GitHub repo, e.g. "https://github.com/benbenson/repo.git"
