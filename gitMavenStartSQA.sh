@@ -26,7 +26,7 @@
 function usage {
 cat <<'USAGE'
 Maven GIT Script for SQA
-====================
+========================
 
 Usage:
 	./gitMavenStartSQA.sh <name> <first name> <last name> <your initials for pom.xml> <GitHub repo *.git address>
